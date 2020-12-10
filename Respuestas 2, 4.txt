@@ -1,0 +1,16 @@
+{Respuesta 2}
+-La funcion EOF sirve para leer un archivo de texto hasta su ultima linea, cuando lo hace, retorna el mensaje TRUE si se lee hasta el final del archivo.
+
+{Respuesta 4}
+-Orden correcto de las lineas:
+
+AssignFile(archivo,"archivo.TXT");
+rewrite(archivo);
+writeln(archivo,"Hola mundo");
+close(archivo);
+
+-Lineas sobrantes:
+
+writeln(archivo,"Hola Mundo");
+eof(archivo);
+reset(archivo);
